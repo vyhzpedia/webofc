@@ -1,0 +1,14 @@
+body {
+	font-family: 'Helvetica Neue', sans-serif !important;
+}
+
+@font-face {
+	font-family: 'Helvetica Neue';
+	font-style: normal;
+	font-weight: 600;
+	src: local('Helvetica Neue'), url('../fonts/HelveticaNeue.woff') format('woff');
+}
+
+.btn {
+	font-weight: bold;
+}

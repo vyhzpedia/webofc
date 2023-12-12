@@ -1,0 +1,120 @@
+        <!doctype html>
+        <html class="light">
+        
+<!-- Mirrored from store.venitymc.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Dec 2023 10:42:05 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="css/bootstrap.min30f4.css?v=3" rel="stylesheet">
+            <link href="css/font-awesome.min30f4.css?v=3" rel="stylesheet">
+            <link href="css/style30f4.css?v=3" rel="stylesheet">
+            <link href="css/font30f4.css?v=3" rel="stylesheet">
+            <title>The Field MC</title>
+                    </head>
+        <body>
+        <div class="container mt-5 mb-2">
+        <div id="overlay">
+        <div id="__header">
+            <img src="img/logo_venity.png" class="mb-2" alt="logo" style="max-width: 100px; max-height: 100px; display: block; margin: 0 auto;">
+            <h1 class="text-center mb-2">The Field MC</h1>
+<!-- <div class="alert alert-success" style="max-width: 500px; float: none; margin: 0 auto 10px;">5% discount for all ranks! ends at 26 March 2022</div> -->
+        <ul class="nav nav-tabs" style="max-width: 500px; float: none; margin: 0 auto 10px;">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.html">Ranks</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="terms.html">Terms</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <button class="btn btn-outline-primary" onclick="tt()"><i class="fa fa-moon-o"></i> Toggle Dark</button>
+            </li>
+                    </ul>
+        </div>
+                <div class="card mt-5" style="max-width: 500px; min-height: 500px">
+            <div class="card-header bg-primary">
+                Welcome
+            </div>
+            <div class="card-body">
+                                <p>Selamat datang di The Field dan terima kasih sudah berkunjung.</p>
+                <p>Semua transaksi seharusnya di proses kurang dari 3 menit.</p>
+                                <p class="text-center mt-5">
+                                            Mohon membaca Terms & FAQ sebelum membeli:
+                                    </p>
+                <div class="row mt-3 mb-5">
+                    <div class="col-6">
+                        <span class="btn btn-secondary d-block font-big" onclick="terms()"><b>TERMS</b></span>
+                    </div>
+                    <div class="col-6">
+                        <span class="btn btn-light text-black d-block font-big" onclick="faq()"><b>FAQ</b></span>
+                    </div>
+                </div>
+                <p>All purchased items cannot be refunded</p>
+                <p>The Field is a Minecraft Bedrock Server that have few minigames such as Bed Wars, Sky Wars, The Bridge, Duels and more!</p>
+                <p>IP: play.thefield.my.id | Port: 19132 | <a href="https://minecraftpocket-servers.com/server/96869/">More Info</a> </p>
+            </div>
+        </div>
+        <script>
+            function ranks() {
+                window.location.href = "login.html";
+            }
+            function coins() {
+                window.location.href = "coins.html";
+            }
+            function terms() {
+                window.location.href = "terms.html";
+            }
+            function faq() {
+                window.location.href = "faq.html";
+            }
+        </script>
+                    <div class="footer mt-5">
+                <hr>
+                <form style="max-width: 250px;" class="d-inline-block text-center mb-3" action="https://store.venitymc.com/setlang" method="post">
+                    <select class="form-select" name="lang" id="setlang">
+                        <option value="en" >English</option>
+                        <option value="id" selected>Bahasa Indonesia</option>
+                    </select>
+                </form>
+                <p>The Field is not affiliated with Mojang Studios or Microsoft Corporation</p>
+                <p><a href="terms.html">Terms of Service</a> | <a href="support.html">Support</a> | Copyright 2022 - The Field</p>
+            </div>
+        </div>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/swal.min.js"></script>
+        <script>
+            cx();
+            $(document).ready(function () {
+                $('#setlang').change(function ()
+                {
+                    $(this).closest('form').submit();
+                });
+            });
+            function tt() {
+                var c = localStorage.getItem("vn_theme");
+                if(c === null) {
+                    c = "light";
+                }
+                document.documentElement.setAttribute("class", c === "light" ? "dark" : "light");
+                c = c === "light" ? "dark" : "light";
+                localStorage.setItem("vn_theme", c);
+            }
+            function cx() {
+                var c = localStorage.getItem("vn_theme");
+                document.documentElement.setAttribute("class", c);
+            }
+        </script>
+                </body>
+        
+<!-- Mirrored from store.venitymc.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Dec 2023 10:42:10 GMT -->
+</html>
+        

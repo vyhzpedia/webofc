@@ -1,0 +1,95 @@
+        <!doctype html>
+        <html class="light">
+        
+<!-- Mirrored from store.venitymc.com/support by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Dec 2023 10:42:13 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="css/bootstrap.min30f4.css?v=3" rel="stylesheet">
+            <link href="css/font-awesome.min30f4.css?v=3" rel="stylesheet">
+            <link href="css/style30f4.css?v=3" rel="stylesheet">
+            <link href="css/font30f4.css?v=3" rel="stylesheet">
+            <title>The Field - Support</title>
+                    </head>
+        <body>
+        <div class="container mt-5 mb-2">
+        <div id="overlay">
+        <div id="__header">
+            <img src="img/logo_venity.png" class="mb-2" alt="logo" style="max-width: 100px; max-height: 100px; display: block; margin: 0 auto;">
+            <h1 class="text-center mb-2">The Field MC</h1>
+<!-- <div class="alert alert-success" style="max-width: 500px; float: none; margin: 0 auto 10px;">5% discount for all ranks! ends at 26 March 2022</div> -->
+        <ul class="nav nav-tabs" style="max-width: 500px; float: none; margin: 0 auto 10px;">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.html">Ranks</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="terms.html">Terms</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <button class="btn btn-outline-primary" onclick="tt()"><i class="fa fa-moon-o"></i> Toggle Dark</button>
+            </li>
+                    </ul>
+        </div>
+                <div class="card mt-5" style="max-width: 500px;">
+            <div class="card-body">
+                <h1 class="mb-3">Support</h1>
+                <ul>
+                    <li>Rank belum masuk? Isi formulir berikut: <a href="https://docs.google.com/forms/d/17E8epseOc0TCNc8bEsqNJmaVaI6AxfLcLhZcD6pTvm8/viewform">Formulir Rank belum masuk</a> </li>
+                    <li>Bantuan lainnya?<ul>
+                            <li>Whatsapp: <a href="https://wa.me/62895331129289">+62 895-3311-29289</a></li>
+                            <li>Discord: <a href="https://discord.gg/dfT8wWbkgx">The Field</a> </li>
+                        </ul></li>
+                </ul>
+            </div>
+        </div>
+                    <div class="footer mt-5">
+                <hr>
+                <form style="max-width: 250px;" class="d-inline-block text-center mb-3" action="https://store.venitymc.com/setlang" method="post">
+                    <select class="form-select" name="lang" id="setlang">
+                        <option value="en" >English</option>
+                        <option value="id" selected>Bahasa Indonesia</option>
+                    </select>
+                </form>
+                <p>The Field is not affiliated with Mojang Studios or Microsoft Corporation</p>
+                <p><a href="terms.html">Terms of Service</a> | <a href="support.html">Support</a> | Copyright 2023 - The Field</p>
+            </div>
+        </div>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/swal.min.js"></script>
+        <script>
+            cx();
+            $(document).ready(function () {
+                $('#setlang').change(function ()
+                {
+                    $(this).closest('form').submit();
+                });
+            });
+            function tt() {
+                var c = localStorage.getItem("vn_theme");
+                if(c === null) {
+                    c = "light";
+                }
+                document.documentElement.setAttribute("class", c === "light" ? "dark" : "light");
+                c = c === "light" ? "dark" : "light";
+                localStorage.setItem("vn_theme", c);
+            }
+            function cx() {
+                var c = localStorage.getItem("vn_theme");
+                document.documentElement.setAttribute("class", c);
+            }
+        </script>
+                </body>
+        
+<!-- Mirrored from store.venitymc.com/support by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Dec 2023 10:42:13 GMT -->
+</html>
+        
